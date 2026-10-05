@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ar" dir="rtl" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>أثير - الاستوديو والمكتبة الشخصية الفاخرة</title>
+    <meta name="description" content="منظومة وسائط شخصية متكاملة وفخمة لتشغيل وإدارة الأغاني، الفيديوهات، الصور والملفات بتخزين دائم ومؤثرات صوتية احترافية." />
+    <meta property="og:title" content="أثير - الاستوديو والمكتبة الشخصية الفاخرة" />
+    <meta property="og:description" content="منظومة وسائط شخصية متكاملة وفخمة لتشغيل وإدارة الأغاني، الفيديوهات، الصور والملفات بتخزين دائم ومؤثرات صوتية احترافية." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#090d16" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Reem+Kufi:wght@400;500;600;700&family=Tajawal:wght@300;400;500;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      // في حالة فتح الملف بعد تحميل الـ zip مباشرة (عبر file:// أو خارج خادم Vite)
+      // يتم التوجيه التلقائي الفوري لملف momuy.html الشامل والمستقل بكامل مزاياه
+      if (
+        window.location.protocol === 'file:' ||
+        (!window.location.host.includes('run.app') &&
+          window.location.port !== '3000' &&
+          window.location.port !== '5173')
+      ) {
+        window.location.replace('./momuy.html');
+      }
+    </script>
+  </head>
+  <body class="bg-[#07090e] text-slate-100 antialiased selection:bg-amber-500/30 selection:text-amber-200 min-h-screen overflow-x-hidden font-tajawal">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
